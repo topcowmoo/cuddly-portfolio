@@ -1,0 +1,21 @@
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100%;
+    line-height; 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
