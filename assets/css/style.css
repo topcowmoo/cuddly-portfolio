@@ -1,0 +1,44 @@
+body, html {
+height: 75%;
+margin: 0;
+font: 400 15px/1.8 "Lato", sans-serif;
+color: #777;
+}
+
+.img {
+position: relative;
+opacity: 0.8;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.img {
+background-image: url("/assets/images/napes.png");
+height: 100%;
+}
+
+.caption {
+position: absolute;
+left: 0;
+top: 50%;
+width: 100%;
+text-align: center;
+color: #000;
+}
+
+.caption span.border1 {
+background-color: #111;
+color: #f8f8ff;
+padding: 18px;
+font-size: 25px;
+letter-spacing: 10px;
+}
+
+.caption span.border2 {
+background-color: #111;
+color: #f8f8ff;
+padding: 20px;
+font-size: 25px;
+letter-spacing: 10px;
+}
