@@ -25,8 +25,17 @@ width: 100%;
 text-align: center;
 color: #000;
 font: 400 15px/1.8 "Lato", sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
+.caption span.border1,
+.caption span.border2, {
+  background-color: black;
+  color: #f8f8ff;
+  margin: 10px;
+}
 .caption span.border1 {
 background-color: black;
 color: #f8f8ff;
@@ -39,7 +48,7 @@ letter-spacing: 10px;
 background-color: black;
 color: #f8f8ff;
 padding: 25px;
-font-size: 25px;
+font-size: 20px;
 letter-spacing: 10px;
 }
 
