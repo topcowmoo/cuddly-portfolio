@@ -13,27 +13,8 @@ opacity: 0.8;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-}
-
-.img {
 background-image: url("/assets/images/napes.png");
 height: 100%;
-}
-
-nav ul li a:hover {
-    color: #fff;
-  }
-
-ul {
-    font-size: 29px;
-    display: flex;
-    align-items: right;
-    justify-content: right;
-    list-style: none;
-    margin-right: 1.7rem;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
 }
 
 .caption {
@@ -60,4 +41,22 @@ color: #f8f8ff;
 padding: 20px;
 font-size: 25px;
 letter-spacing: 10px;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .caption span.border1,
+  .caption span.border2 {
+    padding: 12px;
+    font-size: 18px;
+  }
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .caption span.border1,
+  .caption span.border2 {
+    padding: 15px;
+    font-size: 20px;
+  }
 }
